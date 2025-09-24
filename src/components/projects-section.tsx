@@ -25,52 +25,25 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product catalog, shopping cart, and payment processing.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      github: "https://github.com/yourusername/ecommerce-platform",
-      demo: "https://your-ecommerce-demo.com",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop"
+      title: "Real Time Code execution Engine",
+      description: "Developed a real-time code execution engine with Kafka, Docker, and Redis that securely runs multi-language code in isolated containers and returns results with sub-second latency.sh",
+      technologies: ["React", "FastAPI", "Docker", "Kafka", "Redis"],
+      github: "https://github.com/shobithps/Real-time-code-execution-engine",
+      image: "public/rtce.png"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool built with Next.js and Supabase. Real-time updates, team collaboration, and advanced filtering capabilities.",
-      technologies: ["Next.js", "Supabase", "TypeScript", "Prisma", "Radix UI"],
-      github: "https://github.com/yourusername/task-manager",
-      demo: "https://your-task-manager.com",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop"
+      title: "Distributed File Orchestration and Synchronization for Linux",
+      description: "Built a distributed file orchestration system with HDFS and Socket.IO, enabling multi-client upload, download, and synchronization with ~200 ms operation latency.",
+      technologies: ["Python", "React", "WebSockets", "HDFS"],
+      github: "https://github.com/shobithps/Distributed-File-Orchestration-and-Synchronization-Multi-Node-Data-Transfer-Framework-for-Linux",
+      image: "public/dfos.png"
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and historical data visualization using modern web APIs.",
-      technologies: ["Vue.js", "D3.js", "Weather API", "Chart.js", "PWA"],
-      github: "https://github.com/yourusername/weather-dashboard",
-      demo: "https://your-weather-app.com",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop"
-    },
-    {
-      title: "Social Media Analytics",
-      description: "A comprehensive analytics dashboard for social media metrics with real-time data processing and beautiful visualizations.",
-      technologies: ["React", "Python", "FastAPI", "PostgreSQL", "Chart.js"],
-      github: "https://github.com/yourusername/social-analytics",
-      demo: "https://your-analytics-demo.com",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
-    },
-    {
-      title: "Learning Management System",
-      description: "An educational platform with course management, progress tracking, and interactive learning modules for students and instructors.",
-      technologies: ["Next.js", "Node.js", "MySQL", "AWS S3", "Socket.io"],
-      github: "https://github.com/yourusername/lms-platform",
-      demo: "https://your-lms-demo.com",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop"
-    },
-    {
-      title: "Cryptocurrency Tracker",
-      description: "A real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
-      technologies: ["React", "Redux", "CoinGecko API", "Firebase", "Material-UI"],
-      github: "https://github.com/yourusername/crypto-tracker",
-      demo: "https://your-crypto-tracker.com",
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=600&h=400&fit=crop"
+      title: "SnapConnect Social Media App",
+      description: "Developed a full-stack social media platform with React, Node.js, and SQL, implementing stored procedures, functions, and triggers to manage posts, likes, comments, and user relationships.",
+      technologies: ["React", "Node.js", "SQL"],
+      github: "https://github.com/shobithps/SnapConnect-social-media-app",
+      image: "public/scsm.png"
     }
   ]
 
@@ -149,14 +122,14 @@ export function ProjectsSection() {
                       <Github className="h-4 w-4 mr-2 group-hover/btn:text-primary" />
                       Code
                     </Button>
-                    <Button
+                    {/* <Button
                       size="sm"
                       className="flex-1 btn-gradient"
                       onClick={() => window.open(project.demo, "_blank")}
                     >
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </div>
@@ -177,7 +150,7 @@ export function ProjectsSection() {
               </p>
               <Button
                 className="btn-gradient px-8 py-3"
-                onClick={() => window.open("https://leetcode.com/yourusername", "_blank")}
+                onClick={() => window.open("https://leetcode.com/shobithps", "_blank")}
               >
                 <Code2 className="h-5 w-5 mr-2" />
                 View LeetCode Profile

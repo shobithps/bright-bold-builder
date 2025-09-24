@@ -32,18 +32,19 @@ export function HeroSection() {
 
           {/* Name with Gradient */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 hero-text hero-glow">
-            John Doe
+            Shobith P S
           </h1>
 
           {/* Role */}
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-text-primary mb-6">
-            Full Stack Developer
+            Software Developer
           </h2>
 
           {/* Tagline */}
           <p className="text-lg md:text-xl text-text-secondary max-w-2xl mx-auto mb-12 leading-relaxed">
-            I create beautiful, responsive web applications with modern technologies.
-            Passionate about clean code, user experience, and innovative solutions.
+            I build reliable and efficient software solutions using modern technologies. 
+            Passionate about coding, problem-solving, and creating applications that deliver 
+            real-world impact.
           </p>
 
           {/* CTA Buttons */}
@@ -68,7 +69,7 @@ export function HeroSection() {
           {/* Social Links */}
           <div className="flex items-center justify-center space-x-6 mb-16">
             <a
-              href="https://github.com"
+              href="https://github.com/shobithps"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/50 hover:bg-secondary transition-all duration-300 hover:scale-110 group"
@@ -76,7 +77,7 @@ export function HeroSection() {
               <Github className="h-6 w-6 text-text-secondary group-hover:text-primary" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/shobith-ps"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/50 hover:bg-secondary transition-all duration-300 hover:scale-110 group"
@@ -84,7 +85,7 @@ export function HeroSection() {
               <Linkedin className="h-6 w-6 text-text-secondary group-hover:text-primary" />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:shobithps5@gmail.com"
               className="p-3 rounded-full bg-secondary/50 hover:bg-secondary transition-all duration-300 hover:scale-110 group"
             >
               <Mail className="h-6 w-6 text-text-secondary group-hover:text-primary" />

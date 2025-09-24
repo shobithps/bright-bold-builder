@@ -38,26 +38,20 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com"
+      value: "shobithps5@gmail.com",
+      href: "mailto:shobithps5@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "9980486110",
+      href: "tel:+919980486110"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
-      href: "https://maps.google.com/?q=San+Francisco,+CA"
-    },
-    {
-      icon: Clock,
-      label: "Timezone",
-      value: "PST (UTC-8)",
-      href: null
+      value: "Bengaluru, India",
+      href: "https://maps.google.com/?q=Bengaluru,+India"
     }
   ]
 
@@ -65,19 +59,19 @@ export function ContactSection() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/shobithps",
       color: "hover:text-gray-900 dark:hover:text-white"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://linkedin.com/in/shobith-ps",
       color: "hover:text-blue-600"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com/yourusername",
+      href: "https://x.com/shobith_ps",
       color: "hover:text-blue-400"
     }
   ]
@@ -187,7 +181,7 @@ export function ContactSection() {
                     <input
                       type="text"
                       className="w-full px-4 py-3 rounded-lg border border-border bg-background text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors duration-200"
-                      placeholder="John"
+                      placeholder="Your Name"
                     />
                   </div>
                   <div>
@@ -197,7 +191,7 @@ export function ContactSection() {
                     <input
                       type="text"
                       className="w-full px-4 py-3 rounded-lg border border-border bg-background text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors duration-200"
-                      placeholder="Doe"
+                      placeholder="Last Name"
                     />
                   </div>
                 </div>
@@ -209,7 +203,7 @@ export function ContactSection() {
                   <input
                     type="email"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors duration-200"
-                    placeholder="john@example.com"
+                    placeholder="shobith@example.com"
                   />
                 </div>
 

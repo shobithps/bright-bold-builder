@@ -23,9 +23,9 @@ export function AboutSection() {
   }, [])
 
   const stats = [
-    { icon: Code, label: "Projects Completed", value: "50+" },
+    { icon: Code, label: "Projects Completed", value: "10+" },
     { icon: Coffee, label: "Cups of Coffee", value: "1000+" },
-    { icon: Zap, label: "Lines of Code", value: "100k+" },
+    { icon: Zap, label: "Problems solved", value: "450+" },
   ]
 
   return (
@@ -52,12 +52,13 @@ export function AboutSection() {
             <div className="order-2 lg:order-1">
               <div className="relative max-w-md mx-auto">
                 <div className="aspect-square rounded-2xl bg-gradient-card overflow-hidden shadow-lg">
-                  <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face"
-                    alt="Profile"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+  <img
+    src="/photo.jpg"
+    alt="Profile"
+    className="w-full h-full object-cover"
+  />
+</div>
+
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center shadow-glow">
                   <Code className="h-12 w-12 text-white" />
                 </div>
@@ -71,17 +72,14 @@ export function AboutSection() {
               </h3>
               
               <p className="text-text-secondary text-lg leading-relaxed">
-                I'm a dedicated full stack developer with over 5 years of experience 
-                creating digital solutions that make a difference. I specialize in 
-                modern web technologies and love turning complex problems into simple, 
-                beautiful designs.
+                I'm a final-year Computer Science Engineering student passionate about 
+                building impactful software. With a strong foundation in data structures, 
+                algorithms, and full-stack development, I enjoy creating efficient, real-time 
+                systems and interactive applications that solve real-world problems.
               </p>
 
               <p className="text-text-secondary text-lg leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open source projects, or sharing knowledge with the 
-                developer community. I believe in continuous learning and staying 
-                up-to-date with the latest industry trends.
+                Outside academics, I enjoy playing cricket, going to the gym, and staying active with fitness activities. I also like listening to music, playing snooker, and keeping up with technology through YouTube.
               </p>
 
               {/* Stats */}

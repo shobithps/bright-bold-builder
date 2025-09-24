@@ -33,22 +33,21 @@ export function SkillsSection() {
     {
       title: "Backend",
       skills: [
-        "Node.js", "Express.js", "Python", "Django", "Flask", "PHP", 
-        "Laravel", "Ruby on Rails", "Java", "Spring Boot"
+        "Node.js", "Express.js", "Python", "Django", "Flask", "FastAPI", 
+        "Java", "Spring Boot"
       ]
     },
     {
       title: "Database & Cloud",
       skills: [
         "MongoDB", "PostgreSQL", "MySQL", "Redis", "AWS", "Google Cloud", 
-        "Firebase", "Supabase", "Docker", "Kubernetes"
+        "Docker", "Kubernetes"
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Big Data & DevOps",
       skills: [
-        "Git", "GitHub", "VS Code", "Figma", "Postman", "Jest", 
-        "Cypress", "Webpack", "Vite", "Agile/Scrum"
+        "Hadoop", "Spark", "Kafka", "Jenkins", "Git", "CI/CD", "Linux"
       ]
     }
   ]
